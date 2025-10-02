@@ -20,3 +20,72 @@ body {
   color: #dddddd;
   text-decoration: underline;
 }
+
+.header {
+  height: 725px;
+  padding: 0 80px;
+  background-color: #5187a1;
+}
+
+.logo {
+  height: 80px;
+
+  display: flex;
+  place-items: center;
+}
+
+.logo div {
+  flex: auto;
+  width: 37%;
+}
+
+.logo > .logo-title > a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid white;
+}
+
+.user {
+  text-align: end;
+  height: 54px;
+}
+
+.user a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.user span {
+  padding: 10px;
+}
+
+.user span button {
+  position: relative;
+  top: 7px;
+  width: 77px;
+  height: 42px;
+  padding: 1px 6px;
+  border-radius: 110px;
+  cursor: pointer;
+  border: none;
+}
