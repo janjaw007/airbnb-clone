@@ -224,3 +224,34 @@ body {
   border-radius: 10px;
   object-fit: cover;
 }
+
+.accomodations-section {
+  padding: 0 80px;
+  margin: 50px 0;
+}
+
+.accomodations-title {
+  font-size: 32px;
+}
+
+.accomodations-lists {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.accomodations-lists a {
+  text-decoration: none;
+  color: #000000;
+  padding-right: 13px;
+  font-size: 18px;
+}
+
+.accomodations-lists > a > li > img {
+  border-radius: 10px;
+  width: 422px;
+  height: 448px;
+}
