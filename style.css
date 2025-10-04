@@ -96,3 +96,93 @@ body {
 .menu-section {
   height: 66px;
 }
+
+.menu-container {
+  height: 66px;
+  width: 850px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 110px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.menu-container a > input {
+  background-color: transparent;
+}
+
+.menu-container > div * {
+  width: 70%;
+  text-align: left;
+  border: none;
+  margin: auto;
+}
+
+.menu-container > div:nth-child(1) {
+  width: 18rem;
+  border-right: 1px solid #dadada;
+}
+
+.menu-container > div:nth-child(2),
+.menu-container > div:nth-child(3) {
+  width: 13rem;
+  border-right: 1px solid #dadada;
+}
+
+.menu-container > div:nth-child(4) {
+  width: 11rem;
+}
+
+.menu-container > div:nth-child(5) {
+  width: 4.5rem;
+}
+
+.menu-container > div:hover {
+  background-color: #e7e7e7;
+  padding: 10px 0;
+  border-radius: 110px;
+  cursor: pointer;
+}
+
+.search-btn {
+  width: 45px;
+  height: 45px;
+  padding: 1px 6px;
+  background-color: #fa215b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #dc0e64;
+}
+
+#preface {
+  display: flex;
+  flex-direction: column;
+  height: 625px;
+  justify-content: center;
+}
+
+#preface > span {
+  width: 400px;
+  color: #ffffff;
+  font-size: 58px;
+  font-weight: bold;
+}
+
+#preface > button {
+  width: 155px;
+  height: 32px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
