@@ -172,7 +172,7 @@ body {
 }
 
 #preface > span {
-  width: 400px;
+  width: 500px;
   color: #ffffff;
   font-size: 58px;
   font-weight: bold;
@@ -253,5 +253,49 @@ body {
 .accomodations-lists > a > li > img {
   border-radius: 10px;
   width: 422px;
-  height: 448px;
+  height: 422px;
+}
+
+.unique-section {
+  padding: 50px 80px;
+  background-color: #000000;
+}
+
+.unique-section > div {
+  color: white;
+}
+
+.unique-section > div > b {
+  font-size: 32px;
+}
+.unique-section > div > div {
+  font-size: 14px;
+}
+
+.unique-lists {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.unique-lists > a {
+  text-decoration: none;
+  color: white;
+  padding-right: 13px;
+}
+
+.unique-lists > a > li > img {
+  width: 566px;
+  height: 566px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.unique-lists > a > li > b {
+  font-size: 18px;
+}
+
+.unique-lists > a > li > div {
+  font-size: 14px;
 }
