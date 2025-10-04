@@ -24,7 +24,10 @@ body {
 .header {
   height: 725px;
   padding: 0 80px;
-  background-color: #5187a1;
+  background-image: url(./asset/Background\ Image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .logo {
@@ -88,4 +91,8 @@ body {
   border-radius: 110px;
   cursor: pointer;
   border: none;
+}
+
+.menu-section {
+  height: 66px;
 }
