@@ -277,6 +277,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  margin: 10px 0;
 }
 
 .unique-lists > a {
@@ -298,4 +299,78 @@ body {
 
 .unique-lists > a > li > div {
   font-size: 14px;
+}
+
+.host-section {
+  padding: 0 80px;
+  margin: 50px 0;
+}
+
+.host-section > div > b {
+  font-size: 32px;
+}
+
+.host-lists {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 10px 0;
+}
+
+.host-lists > a {
+  text-decoration: none;
+  color: #000000;
+  padding-right: 13px;
+}
+
+.host-lists > a > li > img {
+  width: 566px;
+  height: 377px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.host-lists > a > li > b {
+  font-size: 18px;
+}
+
+.host-lists > a > li > div {
+  font-size: 14px;
+}
+
+.footer-section {
+  padding: 0 80px;
+  border-top: 1px solid #dddddd;
+  background-color: #f7f7f7f7;
+}
+
+.footer-lists-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10px 0;
+  color: #000000;
+}
+
+.footer-lists {
+  list-style-type: none;
+  margin: 16px 0;
+  padding-right: 13px;
+}
+
+.footer-lists > li {
+  margin-top: 10px;
+}
+.footer-lists > b {
+  font-size: 12px;
+}
+
+.footer-lists > li > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-lists > li > a:hover {
+  text-decoration: underline;
 }
